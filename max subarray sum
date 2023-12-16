@@ -3,7 +3,7 @@ def max_subarray_sum(arr):
     current_sum = arr[0]
     
     for i in arr[1:]:## start from the second element
-        current_sum = max(i, current_sum + i)
+        current_sum = max(i, current_sum + i)## as long as the current_sum > 0, i + current_sum will large than i. So we can let the subarray accumulate until the sum is maximum
         max_sum = max(current_sum, max_sum)
     return max_sum
 
