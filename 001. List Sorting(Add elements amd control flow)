@@ -72,3 +72,6 @@ for element in iterable:
 try:
      # Code that may cause exceptions
 exceptExceptionType:
+# Code to handle exceptions
+finally:
+     # Code that is executed regardless of whether an exception occurs
