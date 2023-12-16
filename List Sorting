@@ -1,0 +1,41 @@
+## List sorting (choose different algorithms according to the situation)
+## A: Bubble Sort
+def order():
+     record = input()
+     record_list = record.split()
+     record_list = list(map(float, record_list))
+     record_len = len(record_list)
+     for i in range(record_len):
+         swapped=False
+         for j in range(0, record_len - 1):
+             if record_list[j] > record_list[j + 1]:
+                 record_list[j], record_list[j + 1] = record_list[j + 1], record_list[j]
+                 swapped=True
+         if not swapped:
+             break
+     return record_list
+        
+order()
+
+## B: Timsort sorting:
+Sorting using the sorted() function
+my_list = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5]
+sorted_list = sorted(my_list)
+print(sorted_list)
+Sort using list.sort() method
+my_list = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5]
+my_list.sort()
+print(my_list)
+
+## C: leetcode algorithm question 21. Merge two ordered linked lists
+def order_list(*lists):
+     ordered_lists = []
+     for i in lists:
+         ordered_lists.extend(i)
+     ordered_lists.sort()
+     return ordered_lists
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+list3 = [19, 92, 39]
+list4 = [2, -3, 48]
+order_list(list1, list2, list3, list4)
