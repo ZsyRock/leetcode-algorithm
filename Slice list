@@ -1,0 +1,15 @@
+my_list = [0, 1, 2, 3, 4, 5]
+result = my_list[1:4] # From index 1 (inclusive) to index 4 (exclusive), the step size defaults to 1
+print(result) # Output [1, 2, 3]
+my_list = [0, 1, 2, 3, 4, 5]
+result = my_list[-3:-1] # From the third to last element to the first to last element, excluding the first to last element
+print(result) #output [3, 4]
+my_list = [0, 1, 2, 3, 4, 5]
+result = my_list[1:5:2] # From index 1 to index 5, the step is 2
+print(result) # Output [1, 3]
+my_list = [0, 1, 2, 3, 4, 5]
+result = my_list[::2] # From the beginning to the end, the step size is 2
+print(result) # Output [0, 2, 4]
+my_list = [0, 1, 2, 3, 4, 5]
+result = my_list[::-1] # Arrange the entire list in reverse order
+print(result) # Output [5, 4, 3, 2, 1, 0]
