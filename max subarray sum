@@ -1,0 +1,12 @@
+def max_subarray_sum(arr):
+    max_sum = arr[0]
+    current_sum = arr[0]
+    
+    for i in arr[1:]:## start from the second element
+        current_sum = max(i, current_sum + i)
+        max_sum = max(current_sum, max_sum)
+    return max_sum
+
+arr = [1, -2, 3, 4, -1, 2, 1, -5, 4]
+result = max_subarray_sum(arr)
+print("max subarray sum is:", result)
