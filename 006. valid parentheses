@@ -13,7 +13,7 @@ def isValid(s):
 
     return stack == []
 
-# 示例
+# sample
 s = "()[]{}"
 result = isValid(s)
-print(result)  # 输出 True
+print(result)  # output True
