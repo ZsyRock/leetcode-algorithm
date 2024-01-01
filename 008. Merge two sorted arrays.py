@@ -1,3 +1,4 @@
+# generate via gpt
 def merge(nums1, m, nums2, n):
 # initialize pointer
     p1, p2, p = m-1, n-1, m+n-1
