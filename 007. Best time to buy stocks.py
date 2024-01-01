@@ -2,8 +2,8 @@ def maxProfit(prices):
     if not prices or len(prices) == 1:
         return 0
     
-    min_price = prices[0]
-    max_profit = 0
+    min_price = prices[0] # start from the first price
+    max_profit = 0 # we can buy nothing to get maximum 0
     
     for price in prices[1:]:
         # Update minimum purchase price
