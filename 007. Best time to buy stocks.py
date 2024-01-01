@@ -13,7 +13,7 @@ def maxProfit(prices):
     
     return max_profit
 
-# example
+# example better to add the buy in and sold out time via for loop
 prices = [7, 1, 5, 3, 6, 4]
 result = maxProfit(prices)
 print(result)  # output 5
