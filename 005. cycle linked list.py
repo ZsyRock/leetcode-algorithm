@@ -1,4 +1,4 @@
-# created via gpt
+# generate via gpt
 #!/usr/bin/env python
 # coding: utf-8
 
