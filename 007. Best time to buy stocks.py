@@ -1,4 +1,4 @@
-# Created via GPT
+# generate via gpt
 def maxProfit(prices):
     if not prices or len(prices) == 1:
         return 0
