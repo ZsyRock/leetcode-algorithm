@@ -1,3 +1,4 @@
+# Created via GPT
 def isValid(s):
     stack = []
     mapping = {')': '(', '}': '{', ']': '['}
