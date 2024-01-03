@@ -1,5 +1,5 @@
-Sum of two numbers
-A: Hash (Dictionary)
+# Sum of two numbers
+# A: Hash (Dictionary)
 def two_sum (nums,target):
     num_dict = {}  # Create a dictionary to store elements and their indices
     for i, num in enumerate(nums):
@@ -21,8 +21,8 @@ target=26
 result = two_sum(nums, target)
 print(result) # Output: [2, 3]
 
-B: Mine method:
-Error: ## Trying to use for j in lst[i:] in a nested loop, this is not the correct approach. In this context, i is an element in the list list_1, not an index, so writing lst[i:] causes an error.
+# B: Mine method:
+# Error: Trying to use for j in lst[i:] in a nested loop, this is not the correct approach. In this context, i is an element in the list list_1, not an index, so writing lst[i:] causes an error.
 def find_add(lst):
      aim = input()
      aim = int(aim)
@@ -39,7 +39,7 @@ def find_add(lst):
 list_1 = (1,2,3,4,5,6,7,8)
 find_add(list_1)
 
-correct:
+# correct:
 def find_add(lst):
      aim = input()
      aim = int(aim)
