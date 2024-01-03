@@ -1,5 +1,5 @@
-## List sorting (choose different algorithms according to the situation)
-## A: Bubble Sort
+# List sorting (choose different algorithms according to the situation)
+# A: Bubble Sort
 def order():
      record = input()
      record_list = record.split()
@@ -17,7 +17,7 @@ def order():
         
 order()
 
-## B: Timsort sorting:
+# B: Timsort sorting:
 Sorting using the sorted() function
 my_list = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5]
 sorted_list = sorted(my_list)
@@ -27,7 +27,7 @@ my_list = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5]
 my_list.sort()
 print(my_list)
 
-## C: leetcode algorithm question 21. Merge two ordered linked lists
+# C: leetcode algorithm question 21. Merge two ordered linked lists
 def order_list(*lists):
      ordered_lists = []
      for i in lists:
@@ -41,16 +41,16 @@ list4 = [2, -3, 48]
 order_list(list1, list2, list3, list4)
 
 
-## Add elements to the list
+# Add elements to the list
 
-## Summarize:
+# Summarize:
 
-## append is used to add an element to the end of the list, which is added as a whole.
-## extend is used to add elements of an iterable object to a list one by one, rather than as a whole.
-## Which method you choose to use depends on your needs. If you want to add a whole element to a list, use append. If you want to add elements of an iterable object to a list one by one, you can use extend.
+# append is used to add an element to the end of the list, which is added as a whole.
+# extend is used to add elements of an iterable object to a list one by one, rather than as a whole.
+# Which method you choose to use depends on your needs. If you want to add a whole element to a list, use append. If you want to add elements of an iterable object to a list one by one, you can use extend.
 
-## Python control flow
-## A.Conditional Statements
+# Python control flow
+# A.Conditional Statements
 if condition:
      # Code to be executed when the condition is true
 else:
@@ -62,13 +62,13 @@ for element in iterable:
 
 while condition:
      # Loop body, code that is executed repeatedly when the condition is true
-## C. Loop Control Statements
+# C. Loop Control Statements
 for element in iterable:
      if condition:
          break #Exit the loop
      if another_condition:
          continue # Skip the current iteration and continue with the next one
-## D.Exception Handling
+# D.Exception Handling
 try:
      # Code that may cause exceptions
 exceptExceptionType:
